@@ -1,102 +1,208 @@
-* {
-  box-sizing: border-box;
+@media screen and (min-width : 992px) {
+#div1 {
+	float: left;
+	background-color: gray;
+	width: 30%;
+	height: 30%;
+	border: solid;
+	margin-left: 2%;
 }
-
-body{
-	margin: 0;
-	padding: 0;
-  font-family: "Comic Sans MS", cursive, sans-serif;
+#div2 {
+	float: left;
+	background-color: gray;
+	width: 30%;
+	height: 30%;
+	border: solid;
+	margin-left: 2%;
 }
-
-.row{
-  margin-top: 5%;
-  margin-bottom: 5%;
+#div3 {
+	float: left;
+	background-color: gray;
+	width: 30%;
+	height: 30%;
+	border: solid;
+	margin-left: 2%;
 }
-
-h1 {
-  margin-bottom: 15px;
-  text-align: center;
-  color: #ff4532;
-  font-size: 50px;
+#inDiv1 {
+	height: 5%;
+	width: 100%;
 }
-
-
-.box{
-  width: 100%;
-  overflow: none;
+#inDiv2 {
+	height: 5%;
+	width: 100%;
 }
-
-
-.content-name{
-  overflow: none;
-  text-align: center;
-  border: 4px solid black;
-  width: 100px;
-  height: 40px;
-  padding: 5px;
-  float: right;
-  margin-right: 36px;
-  margin-top: 0px;
-  font-weight: bold;
-  position: relative;
+#inDiv3 {
+	height: 5%;
+	width: 100%;
 }
+#inDiv4 {
+	height: 90%;
+	width: 100%;
+}
+#inDiv5 {
+	height: 90%;
+	width: 100%;
+}
+#inDiv6 {
+	height: 90%;
+	width: 100%;
+}
+#chicken {
+	width: 20%;
+	float: right;
+	background-color: pink;
+	border: solid;
+}
+#beef {
+	width: 20%;
+	float: right;
+	background-color: red;
+	border: solid;
+}
+#sushi {
+	width: 20%;
+	float: right;
+	background-color: #E5D198;
+	border: solid;
+}
+}
+@media screen and (min-width : 768px) and (max-width : 991px) {
+ #div1 {
+	float: left;
+	background-color: gray;
+	width: 40%;
+	height: 30%;
+	border: solid;
+	margin-left: 9%;
+}
+#div2 {
+	float: left;
+	background-color: gray;
+	width: 40%;
+	height: 30%;
+	border: solid;
+	margin-left: 2%;
+}
+#div3 {
+	float: left;
+	background-color: gray;
+	width: 83%;
+	height: 30%;
+	border: solid;
+	margin-top: 3%;
+	margin-left: 9%;
+}
+#inDiv1 {
+	height: 5%;
+	width: 100%;
+}
+#inDiv2 {
+	height: 5%;
+	width: 100%;
+}
+#inDiv3 {
+	height: 5%;
+	width: 100%;
+}
+#inDiv4 {
+	height: 90%;
+	width: 100%;
+}
+#inDiv5 {
+	height: 90%;
+	width: 100%;
+}
+#inDiv6 {
+	height: 90%;
+	width: 100%;
+}
+#chicken {
+	width: 20%;
+	float: right;
+	background-color: pink;
+	border: solid;
+}
+#beef {
+	width: 20%;
+	float: right;
+	background-color: red;
+	border: solid;
+}
+#sushi {
+	width: 20%;
+	float: right;
+	background-color: #E5D198;
+	border: solid;
+}
+} 
 
-.content{
-  border: 5px solid black;
-  width: 90%;
-  height: auto;
-  margin: 2.5%;
-  color: black
-  font-size: 25px;
-  padding: 2%;
-  padding-top: 55px;
-  background-color: rgba(0,0,0,0.3);
+@media screen and (max-width: 750px) {
+#div1 {
+	float: left;
+	background-color: gray;
+	width: 80%;
+	height: 30%;
+	border: solid;
+	margin-left: 10%;
 }
-
-.name1{
-  background-color: #FFB6C1;
+#div2 {
+	float: left;
+	background-color: gray;
+	width: 80%;
+	height: 30%;
+	border: solid;
+	margin-left: 10%;
+	margin-top: 3%;
 }
-
-.name2{
-  color: white;
-  background-color: #FF0000;
+#div3 {
+	float: left;
+	background-color: gray;
+	width: 80%;
+	height: 30%;
+	border: solid;
+	margin-left: 10%;
+	margin-top: 3%;
 }
-.name3{
-  background-color: #FFFF00;
+#inDiv1 {
+	height: 5%;
+	width: 100%;
 }
-
-
-/********** Large devices only **********/
-@media (min-width: 992px) {
-  .col-lg-4 {
-  	float: left;
-    width: 33.33%;
-  }
+#inDiv2 {
+	height: 5%;
+	width: 100%;
 }
-/********** Medium devices only **********/
-@media (min-width: 768px) and (max-width: 991px) {
-  .col-md-6,.col-md-12 {
-    float: left;
-  }
-  .col-md-6 {
-    width: 50%;
-  }
-  .col-md-12 {
-    margin-left: -10px;
-    width: 100%;
-  }
-  .name3{
-    margin-right: 65px;
-    width: 100px;
-  }
+#inDiv3 {
+	height: 5%;
+	width: 100%;
 }
-
-@media (min-width: 0px) and (max-width: 767px) {
-  .col-sm-12 {
-  	float: left;
-    width: 100%;
-  }
-  .content-name{
-    margin-right: 30px;
-  }
+#inDiv4 {
+	height: 90%;
+	width: 100%;
 }
+#inDiv5 {
+	height: 90%;
+	width: 100%;
+}
+#inDiv6 {
+	height: 90%;
+	width: 100%;
+}
+#chicken {
+	width: 20%;
+	float: right;
+	background-color: pink;
+	border: solid;
+}
+#beef {
+	width: 20%;
+	float: right;
+	background-color: red;
+	border: solid;
+}
+#sushi {
+	width: 20%;
+	float: right;
+	background-color: #E5D198;
+	border: solid;
+}
+} 
